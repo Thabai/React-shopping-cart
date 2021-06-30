@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Item.css';
- 
+
 
 const Item = ({item, children}) => {
   return (
   <div className="Item">
     <div className="Item-left">
-      <div className="Item-image"></div>
+      <div className="Item-image">
+    <a><img src={item.img}></img></a>
+          </div>
       <div className="Item-title">
       {item.name}
       </div>

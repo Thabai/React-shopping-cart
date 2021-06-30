@@ -11,6 +11,11 @@
     margin-right: 10px;
     float: left;
   }
+
+  img {
+    width: 100%;
+  }
+
   .Item-title {
     font-weight: bold;
     margin-bottom: 0.4em;

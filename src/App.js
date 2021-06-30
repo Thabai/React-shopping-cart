@@ -4,6 +4,8 @@ import {items} from './Component/Static-data';
 import Nav from './Component/Nav';
 import './App.css';
 import CartPage from './Component/CartPage';
+import img1 from './img/img1.png';
+import img2 from './img/img2.png';
 
 const summarizeCart = (cart) => {
   const groupItems = cart.reduce((summary, item) => {
